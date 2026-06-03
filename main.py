@@ -96,7 +96,7 @@ def main():
 
     task = input("Task: ").strip()
     if not task:
-        task = "Write a Python function that checks if a string is a palindrome. Include test cases."
+        task = "写一个判断字符串是否为回文的Python函数，包含测试用例。"
 
     print(f"\n{'='*60}")
     print(f"Task: {task}")
